@@ -7,3 +7,4 @@ data/apple-music-urls.json
 data/album-artwork.json
 data/lyrics.json
 .key*
+.DS_Store
