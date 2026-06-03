@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.env.local
+samples/
+data/apple-music-urls.json
+data/album-artwork.json
+data/lyrics.json
+.key

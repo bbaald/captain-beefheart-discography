@@ -1,0 +1,42 @@
+{
+  "name": "discography-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "migrate": "tsx scripts/migrate.ts",
+    "seed:key": "tsx scripts/seed-key.ts",
+    "scrape": "tsx scripts/scrape-beefheart.ts",
+    "seed:data": "tsx scripts/seed-beefheart.ts",
+    "search:apple-music": "tsx scripts/fetch-apple-music-urls.ts",
+    "apply:apple-music-urls": "tsx scripts/apply-apple-music-urls.ts",
+    "fetch:album-artwork": "tsx scripts/fetch-album-artwork.ts",
+    "apply:album-artwork": "tsx scripts/apply-album-artwork.ts",
+    "fetch:lyrics": "tsx scripts/fetch-lyrics.ts",
+    "apply:lyrics": "tsx scripts/apply-lyrics.ts",
+    "test": "vitest run",
+    "ui:install": "cd src/ui && npm install",
+    "ui:dev": "cd src/ui && npm run dev",
+    "ui:build": "cd src/ui && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.15.6",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}

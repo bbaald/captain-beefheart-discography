@@ -1,0 +1,1577 @@
+{
+  "scraped_at": "2026-05-26T18:34:52.573Z",
+  "source": "https://www.beefheart.com/music/discography/",
+  "albums": [
+    {
+      "title": "The Legendary A&M Sessions",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/amsessions.jpg",
+      "release_year": 1984,
+      "recorded": "1965",
+      "detail_url": "https://www.beefheart.com/the-legendary-am-sessions-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Diddy Wah Diddy"
+        },
+        {
+          "sequence": 2,
+          "title": "Who Do You Think You’re Fooling"
+        },
+        {
+          "sequence": 3,
+          "title": "Moonchild"
+        },
+        {
+          "sequence": 4,
+          "title": "Frying Pan"
+        },
+        {
+          "sequence": 5,
+          "title": "Here I Am I Always Am"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Safe As Milk",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/milk.jpg",
+      "release_year": 1967,
+      "recorded": "1967",
+      "detail_url": "https://www.beefheart.com/safe-as-milk-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Sure ‘Nuff ‘N Yes I Do"
+        },
+        {
+          "sequence": 2,
+          "title": "Zig Zag Wanderer"
+        },
+        {
+          "sequence": 3,
+          "title": "Call On Me"
+        },
+        {
+          "sequence": 4,
+          "title": "Dropout Boogie"
+        },
+        {
+          "sequence": 5,
+          "title": "I’m Glad"
+        },
+        {
+          "sequence": 6,
+          "title": "Electricity"
+        },
+        {
+          "sequence": 7,
+          "title": "Yellow Brick Road"
+        },
+        {
+          "sequence": 8,
+          "title": "Abba Zaba"
+        },
+        {
+          "sequence": 9,
+          "title": "Plastic Factory"
+        },
+        {
+          "sequence": 10,
+          "title": "Where There’s Woman"
+        },
+        {
+          "sequence": 11,
+          "title": "Grown So Ugly"
+        },
+        {
+          "sequence": 12,
+          "title": "Autumn’s Child"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica, bass marimba"
+        },
+        {
+          "name": "Ry Cooder",
+          "instruments": "guitar, bass"
+        },
+        {
+          "name": "Alex St Clair Snouffer",
+          "instruments": "guitar, backing vocals"
+        },
+        {
+          "name": "Jerry Handley",
+          "instruments": "bass"
+        },
+        {
+          "name": "John French",
+          "instruments": "drums, backing vocals"
+        },
+        {
+          "name": "Doug Moon",
+          "instruments": "guitar (Sure Nuff only)"
+        },
+        {
+          "name": "Milt Holland",
+          "instruments": "percussion"
+        },
+        {
+          "name": "Russ Titelman",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Taj Mahal",
+          "instruments": "percussion"
+        },
+        {
+          "name": "Sam Hoffman",
+          "instruments": "theremin"
+        }
+      ]
+    },
+    {
+      "title": "Mirror Man",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/mirror.jpg",
+      "release_year": 1971,
+      "recorded": "1967 / 8",
+      "detail_url": "https://www.beefheart.com/mirror-man-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Tarotplane"
+        },
+        {
+          "sequence": 2,
+          "title": "Kandy Korn"
+        },
+        {
+          "sequence": 3,
+          "title": "25th Century Quaker"
+        },
+        {
+          "sequence": 4,
+          "title": "Mirror Man"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet – vocals, harmonica, oboe",
+          "instruments": ""
+        },
+        {
+          "name": "Alex St. Clair – guitar",
+          "instruments": ""
+        },
+        {
+          "name": "Jeff Cotton – guitar",
+          "instruments": ""
+        },
+        {
+          "name": "Mark Marcellino – keyboards",
+          "instruments": ""
+        },
+        {
+          "name": "John French – drums",
+          "instruments": ""
+        },
+        {
+          "name": "Jerry Handley",
+          "instruments": "bass"
+        }
+      ]
+    },
+    {
+      "title": "Strictly Personal",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/personal.jpg",
+      "release_year": 1968,
+      "recorded": "1968",
+      "detail_url": "https://www.beefheart.com/strictly-personal-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Ah Feel Like Ahcid"
+        },
+        {
+          "sequence": 2,
+          "title": "Safe As Milk"
+        },
+        {
+          "sequence": 3,
+          "title": "Trust Us"
+        },
+        {
+          "sequence": 4,
+          "title": "Son of Mirror Man – Mere Man"
+        },
+        {
+          "sequence": 5,
+          "title": "On Tomorrow"
+        },
+        {
+          "sequence": 6,
+          "title": "Beatle Bones and Smokin’ Stones"
+        },
+        {
+          "sequence": 7,
+          "title": "Gimme Dat Harp Boy"
+        },
+        {
+          "sequence": 8,
+          "title": "Kandy Korn"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica, electric flour sifter"
+        },
+        {
+          "name": "Alex St Clair Snouffer",
+          "instruments": "guitar, backing vocals"
+        },
+        {
+          "name": "Jeff Cotton",
+          "instruments": "guitar, backing vocals"
+        },
+        {
+          "name": "Jerry Handley",
+          "instruments": "bass, backing vocals"
+        },
+        {
+          "name": "John French",
+          "instruments": "drums, backing vocals"
+        }
+      ]
+    },
+    {
+      "title": "Trout Mask Replica",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/trout.gif",
+      "release_year": 1969,
+      "recorded": "1969",
+      "detail_url": "https://www.beefheart.com/trout-mask-replica-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Frownland"
+        },
+        {
+          "sequence": 2,
+          "title": "The Dust Blows Forward ‘N The Dust Blows Back"
+        },
+        {
+          "sequence": 3,
+          "title": "Dachau Blues"
+        },
+        {
+          "sequence": 4,
+          "title": "Ella Guru"
+        },
+        {
+          "sequence": 5,
+          "title": "Hair Pie: Bake 1"
+        },
+        {
+          "sequence": 6,
+          "title": "Moonlight on Vermont"
+        },
+        {
+          "sequence": 7,
+          "title": "Pachuco Cadaver"
+        },
+        {
+          "sequence": 8,
+          "title": "Bills Corpse"
+        },
+        {
+          "sequence": 9,
+          "title": "Sweet Sweet Bulbs"
+        },
+        {
+          "sequence": 10,
+          "title": "Neon Meate Dream of a Octafish"
+        },
+        {
+          "sequence": 11,
+          "title": "China Pig"
+        },
+        {
+          "sequence": 12,
+          "title": "My Human Gets Me Blues"
+        },
+        {
+          "sequence": 13,
+          "title": "Dali’s Car"
+        },
+        {
+          "sequence": 14,
+          "title": "Hair Pie: Bake 2"
+        },
+        {
+          "sequence": 15,
+          "title": "Pena"
+        },
+        {
+          "sequence": 16,
+          "title": "Well"
+        },
+        {
+          "sequence": 17,
+          "title": "When Big Joan Sets Up"
+        },
+        {
+          "sequence": 18,
+          "title": "Fallin’ Ditch"
+        },
+        {
+          "sequence": 19,
+          "title": "Sugar ‘N Spikes"
+        },
+        {
+          "sequence": 20,
+          "title": "Ant Man Bee"
+        },
+        {
+          "sequence": 21,
+          "title": "Orange Claw Hammer"
+        },
+        {
+          "sequence": 22,
+          "title": "Wild Life"
+        },
+        {
+          "sequence": 23,
+          "title": "She’s Too Much For My Mirror"
+        },
+        {
+          "sequence": 24,
+          "title": "Hobo Chang Ba"
+        },
+        {
+          "sequence": 25,
+          "title": "The Blimp"
+        },
+        {
+          "sequence": 26,
+          "title": "Steal Softly Thru Snow"
+        },
+        {
+          "sequence": 27,
+          "title": "Old Fart at Play"
+        },
+        {
+          "sequence": 28,
+          "title": "Veteran’s Day Poppy"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": ""
+        },
+        {
+          "name": "Bill Harkleroad",
+          "instruments": ""
+        },
+        {
+          "name": "Jeff Cotton",
+          "instruments": ""
+        },
+        {
+          "name": "John French",
+          "instruments": ""
+        },
+        {
+          "name": "Mark Boston",
+          "instruments": ""
+        },
+        {
+          "name": "Victor Hayden",
+          "instruments": ""
+        },
+        {
+          "name": "Gary Marker",
+          "instruments": ""
+        },
+        {
+          "name": "Doug Moon",
+          "instruments": ""
+        }
+      ]
+    },
+    {
+      "title": "Lick My Decals Off, Baby",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/decals.jpg",
+      "release_year": 1970,
+      "recorded": "1970",
+      "detail_url": "https://www.beefheart.com/lick-my-decals-off-baby-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Lick My Decals Off, Baby"
+        },
+        {
+          "sequence": 2,
+          "title": "Doctor Dark"
+        },
+        {
+          "sequence": 3,
+          "title": "I Love You, You Big Dummy"
+        },
+        {
+          "sequence": 4,
+          "title": "Peon"
+        },
+        {
+          "sequence": 5,
+          "title": "Bellerin’ Plain"
+        },
+        {
+          "sequence": 6,
+          "title": "Woe-is-uh-Me-Bop"
+        },
+        {
+          "sequence": 7,
+          "title": "Japan in a Dishpan"
+        },
+        {
+          "sequence": 8,
+          "title": "I Wanna Find a Woman That’ll Hold My Big Toe Till I Have To Go"
+        },
+        {
+          "sequence": 9,
+          "title": "Petrified Forest"
+        },
+        {
+          "sequence": 10,
+          "title": "One Red Rose That I Mean"
+        },
+        {
+          "sequence": 11,
+          "title": "The Buggy Boogie Woogie"
+        },
+        {
+          "sequence": 12,
+          "title": "The Smithsonian Institute Blues (or the Big Dig)"
+        },
+        {
+          "sequence": 13,
+          "title": "Space-age Couple"
+        },
+        {
+          "sequence": 14,
+          "title": "The Clouds Are Full of Wine (not Whiskey or Rye)"
+        },
+        {
+          "sequence": 15,
+          "title": "Flash Gordon’s Ape"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don van Vliet",
+          "instruments": "vocals, harmonica, sax"
+        },
+        {
+          "name": "Bill Harkleroad",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Art Tripp",
+          "instruments": "drums, marimba, broom"
+        },
+        {
+          "name": "Mark Boston",
+          "instruments": "bass"
+        },
+        {
+          "name": "John French",
+          "instruments": "drums"
+        }
+      ]
+    },
+    {
+      "title": "The Spotlight Kid",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/spotlight.jpg",
+      "release_year": 1972,
+      "recorded": "1972",
+      "detail_url": "https://www.beefheart.com/the-spotlight-kid-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "I’m Gonna Booglarize You Baby"
+        },
+        {
+          "sequence": 2,
+          "title": "White Jam"
+        },
+        {
+          "sequence": 3,
+          "title": "Blabber ‘N Smoke"
+        },
+        {
+          "sequence": 4,
+          "title": "When It Blows Its Stacks"
+        },
+        {
+          "sequence": 5,
+          "title": "Alice in Blunderland"
+        },
+        {
+          "sequence": 6,
+          "title": "The Spotlight Kid"
+        },
+        {
+          "sequence": 7,
+          "title": "Click Clack"
+        },
+        {
+          "sequence": 8,
+          "title": "Grow Fins"
+        },
+        {
+          "sequence": 9,
+          "title": "There Ain’t No Santa Claus on the Evenin’ Stage"
+        },
+        {
+          "sequence": 10,
+          "title": "Glider"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica"
+        },
+        {
+          "name": "Bill Harkleroad",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Mark Boston",
+          "instruments": "bass"
+        },
+        {
+          "name": "Elliot Ingber",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Art Tripp",
+          "instruments": "drums, marimba, piano, harpsichord"
+        },
+        {
+          "name": "John French",
+          "instruments": "drums"
+        },
+        {
+          "name": "Rhys Clark",
+          "instruments": "drums (Glider only)"
+        }
+      ]
+    },
+    {
+      "title": "Clear Spot",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/clear.jpg",
+      "release_year": 1972,
+      "recorded": "1972",
+      "detail_url": "https://www.beefheart.com/clear-spot-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Low Yo Yo Stuff"
+        },
+        {
+          "sequence": 2,
+          "title": "Nowadays a Woman’s Gotta Hit a Man"
+        },
+        {
+          "sequence": 3,
+          "title": "Too Much Time"
+        },
+        {
+          "sequence": 4,
+          "title": "Circumstances"
+        },
+        {
+          "sequence": 5,
+          "title": "My Head Is My Only House Unless It Rains"
+        },
+        {
+          "sequence": 6,
+          "title": "Sun Zoom Spark"
+        },
+        {
+          "sequence": 7,
+          "title": "Clear Spot"
+        },
+        {
+          "sequence": 8,
+          "title": "Crazy Little Thing"
+        },
+        {
+          "sequence": 9,
+          "title": "Long Neck Bottles"
+        },
+        {
+          "sequence": 10,
+          "title": "Her Eyes Are A Blue Million Miles"
+        },
+        {
+          "sequence": 11,
+          "title": "Big Eyed Beans from Venus"
+        },
+        {
+          "sequence": 12,
+          "title": "Golden Birdies"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica"
+        },
+        {
+          "name": "Bill Harkleroad",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Mark Boston",
+          "instruments": "bass, guitar"
+        },
+        {
+          "name": "Art Tripp",
+          "instruments": "drums"
+        },
+        {
+          "name": "Roy Estrada",
+          "instruments": "bass"
+        },
+        {
+          "name": "Milt Holland",
+          "instruments": "percussion"
+        },
+        {
+          "name": "Russ Titelman",
+          "instruments": "guitar (Too Much Time only)"
+        },
+        {
+          "name": "The Blackberries",
+          "instruments": "backing vocals"
+        }
+      ]
+    },
+    {
+      "title": "Unconditionally Guaranteed",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/unc.jpg",
+      "release_year": 1974,
+      "recorded": "1974",
+      "detail_url": "https://www.beefheart.com/unconditionally-guaranteed-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Upon The My O My"
+        },
+        {
+          "sequence": 2,
+          "title": "Sugar Bowl"
+        },
+        {
+          "sequence": 3,
+          "title": "New Electric Ride"
+        },
+        {
+          "sequence": 4,
+          "title": "Magic Be"
+        },
+        {
+          "sequence": 5,
+          "title": "Happy Love Song"
+        },
+        {
+          "sequence": 6,
+          "title": "Full Moon Hot Sun"
+        },
+        {
+          "sequence": 7,
+          "title": "I Got Love On My Mind"
+        },
+        {
+          "sequence": 8,
+          "title": "This is the Day"
+        },
+        {
+          "sequence": 9,
+          "title": "Lazy Music"
+        },
+        {
+          "sequence": 10,
+          "title": "Peaches"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica"
+        },
+        {
+          "name": "Bill Harkleroad",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Alex St Clair Snouffer",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Mark Boston",
+          "instruments": "bass"
+        },
+        {
+          "name": "Art Tripp",
+          "instruments": "drums"
+        },
+        {
+          "name": "Mark Marcellino",
+          "instruments": "keyboards"
+        },
+        {
+          "name": "Andy DiMartino",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Del Simmons",
+          "instruments": "sax, flute"
+        }
+      ]
+    },
+    {
+      "title": "Bluejeans & Moonbeams",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/bluejeans.jpg",
+      "release_year": 1974,
+      "recorded": "1974",
+      "detail_url": "https://www.beefheart.com/bluejeans-and-moonbeams-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Party Of Special Things To Do (Don Vliet / Elliot Ingber) 3.12"
+        },
+        {
+          "sequence": 2,
+          "title": "Same Old Blues (J.J.Cale) 4.00"
+        },
+        {
+          "sequence": 3,
+          "title": "Observatory Crest (Don Vliet / Elliot Ingber) 3.28"
+        },
+        {
+          "sequence": 4,
+          "title": "Pompadour Swamp (Don Vliet) 3.27"
+        },
+        {
+          "sequence": 5,
+          "title": "Captain’s Holiday (R.Feldman / W.Richmond / S.Hickerson / C.Blackwell) 5.42"
+        },
+        {
+          "sequence": 6,
+          "title": "Rock and Roll’s Evil Doll (Don Vliet / Mark Gibbons / Ira Ingber) 3.09"
+        },
+        {
+          "sequence": 7,
+          "title": "Further Than We’ve Gone (Don Vliet) 5.00"
+        },
+        {
+          "sequence": 8,
+          "title": "Twist Ah Luck (Don Vliet / Mark Gibbons / Ira Ingber) 3.17"
+        },
+        {
+          "sequence": 9,
+          "title": "Bluejeans And Moonbeams (Don Vliet) 5.09"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica"
+        },
+        {
+          "name": "Dean Smith",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Ira Ingber",
+          "instruments": "bass"
+        },
+        {
+          "name": "Bob West",
+          "instruments": "bass (Observatory Crest only)"
+        },
+        {
+          "name": "Michael Smotherman",
+          "instruments": "keyboards, backing vocals"
+        },
+        {
+          "name": "Mark Gibbons",
+          "instruments": "keyboards"
+        },
+        {
+          "name": "Gene Pello",
+          "instruments": "drums"
+        },
+        {
+          "name": "Jimmy Caravan",
+          "instruments": "keyboards, star machine"
+        },
+        {
+          "name": "Ty Grimes",
+          "instruments": "percussion"
+        }
+      ]
+    },
+    {
+      "title": "Bat Chain Puller",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/batchainpuller_sml.jpg",
+      "release_year": 2012,
+      "recorded": "1976",
+      "detail_url": "https://www.beefheart.com/bat-chain-puller-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Bat Chain Puller"
+        },
+        {
+          "sequence": 2,
+          "title": "Seam Crooked Sam"
+        },
+        {
+          "sequence": 3,
+          "title": "Harry Irene"
+        },
+        {
+          "sequence": 4,
+          "title": "81 Poop Hatch"
+        },
+        {
+          "sequence": 5,
+          "title": "Flavor Bud Living"
+        },
+        {
+          "sequence": 6,
+          "title": "Brick Bats"
+        },
+        {
+          "sequence": 7,
+          "title": "Floppy Boot Stomp"
+        },
+        {
+          "sequence": 8,
+          "title": "Ah Carrot Is As Close As Ah Rabbit Gets To Ah Diamond"
+        },
+        {
+          "sequence": 9,
+          "title": "Owed T’Alex"
+        },
+        {
+          "sequence": 10,
+          "title": "Odd Jobs"
+        },
+        {
+          "sequence": 11,
+          "title": "Human Totem Pole (The 1000th And 10th Day Of The Human Totem Pole)"
+        },
+        {
+          "sequence": 12,
+          "title": "Apes Ma"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Shiny Beast (Bat Chain Puller)",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/shiny.jpg",
+      "release_year": 1978,
+      "recorded": "1976 / 8",
+      "detail_url": "https://www.beefheart.com/shiny-beast-bat-chain-puller-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "The Floppy Boot Stomp"
+        },
+        {
+          "sequence": 2,
+          "title": "Tropical Hot Dog Night"
+        },
+        {
+          "sequence": 3,
+          "title": "Ice Rose"
+        },
+        {
+          "sequence": 4,
+          "title": "Harry Irene"
+        },
+        {
+          "sequence": 5,
+          "title": "You Know You’re A Man"
+        },
+        {
+          "sequence": 6,
+          "title": "Bat Chain Puller"
+        },
+        {
+          "sequence": 7,
+          "title": "When I See Mommy I Feel Like a Mummy"
+        },
+        {
+          "sequence": 8,
+          "title": "Owed T’ Alex"
+        },
+        {
+          "sequence": 9,
+          "title": "Candle Mambo"
+        },
+        {
+          "sequence": 10,
+          "title": "Love Lies"
+        },
+        {
+          "sequence": 11,
+          "title": "Suction Prints"
+        },
+        {
+          "sequence": 12,
+          "title": "Apes-Ma"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica, sax"
+        },
+        {
+          "name": "Jeff Moris Tepper",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Richard Redus",
+          "instruments": "guitar, bass, accordion"
+        },
+        {
+          "name": "Eric Drew Feldman",
+          "instruments": "bass, piano, synthesiser"
+        },
+        {
+          "name": "Bruce Fowler",
+          "instruments": "trombone, air bass"
+        },
+        {
+          "name": "Robert Arthur Williams",
+          "instruments": "drums"
+        },
+        {
+          "name": "Art Tripp",
+          "instruments": "marimba, percussion"
+        }
+      ]
+    },
+    {
+      "title": "Doc At the Radar Station",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/doc.jpg",
+      "release_year": 1980,
+      "recorded": "1980",
+      "detail_url": "https://www.beefheart.com/doc-at-the-radar-station-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Hot Head"
+        },
+        {
+          "sequence": 2,
+          "title": "Ashtray Heart"
+        },
+        {
+          "sequence": 3,
+          "title": "A Carrot is as Close as a Rabbit Gets To A Diamond"
+        },
+        {
+          "sequence": 4,
+          "title": "Run Paint Run Run"
+        },
+        {
+          "sequence": 5,
+          "title": "Sue Egypt"
+        },
+        {
+          "sequence": 6,
+          "title": "Brickbats"
+        },
+        {
+          "sequence": 7,
+          "title": "Dirty Blue Gene"
+        },
+        {
+          "sequence": 8,
+          "title": "Best Batch Yet"
+        },
+        {
+          "sequence": 9,
+          "title": "Telephone"
+        },
+        {
+          "sequence": 10,
+          "title": "Flavor Bud Living"
+        },
+        {
+          "sequence": 11,
+          "title": "Sheriff of Hong Kong"
+        },
+        {
+          "sequence": 12,
+          "title": "Making Love to a Vampire with a Monkey on my Knee"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, chinese gongs, harmonica, sax, bass clarinet"
+        },
+        {
+          "name": "Jeff Moris Tepper",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Eric Drew Feldman",
+          "instruments": "bass, synthsiser, mellotron, piano"
+        },
+        {
+          "name": "Robert Arthur Williams",
+          "instruments": "drums"
+        },
+        {
+          "name": "Bruce Fowler",
+          "instruments": "trombone"
+        },
+        {
+          "name": "John French",
+          "instruments": "guitar, marimba, bass, drums"
+        },
+        {
+          "name": "Gary Lucas",
+          "instruments": "guitar, french horn"
+        }
+      ]
+    },
+    {
+      "title": "Ice Cream For Crow",
+      "album_type": "LP",
+      "recording_type": "studio",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/06/icecream.jpg",
+      "release_year": 1982,
+      "recorded": "1982",
+      "detail_url": "https://www.beefheart.com/ice-cream-for-crow-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Ice Cream For Crow"
+        },
+        {
+          "sequence": 2,
+          "title": "The Host The Ghost The Most Holy-O"
+        },
+        {
+          "sequence": 3,
+          "title": "Semi-Multicoloured Caucasian"
+        },
+        {
+          "sequence": 4,
+          "title": "Hey Garland I Dig Your Tweed Coat"
+        },
+        {
+          "sequence": 5,
+          "title": "Evening Bell"
+        },
+        {
+          "sequence": 6,
+          "title": "Cardboard Cutout Sundown"
+        },
+        {
+          "sequence": 7,
+          "title": "The Past Sure Is Tense"
+        },
+        {
+          "sequence": 8,
+          "title": "Ink Mathematics"
+        },
+        {
+          "sequence": 9,
+          "title": "The Witch Doctor Life"
+        },
+        {
+          "sequence": 10,
+          "title": "81 Poop Hatch"
+        },
+        {
+          "sequence": 11,
+          "title": "The Thousandth and Tenth Day Of The Human Totem Pole"
+        },
+        {
+          "sequence": 12,
+          "title": "Skeleton Makes Good"
+        }
+      ],
+      "musicians": [
+        {
+          "name": "Don Van Vliet",
+          "instruments": "vocals, harmonica, sax, chinese gongs"
+        },
+        {
+          "name": "Jeff Moris Tepper",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Gary Lucas",
+          "instruments": "guitar"
+        },
+        {
+          "name": "Richard Snyder",
+          "instruments": "bass, marimba, viola"
+        },
+        {
+          "name": "Eric Drew Feldman",
+          "instruments": "bass, piano"
+        },
+        {
+          "name": "Cliff Martinez",
+          "instruments": "drums"
+        }
+      ]
+    },
+    {
+      "title": "I’m Going To Do What I Wanna Do: Live At My Father’s Place 1978",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/whatiwannado.jpg",
+      "release_year": 2000,
+      "recorded": "1978",
+      "detail_url": "https://www.beefheart.com/im-going-to-do-what-i-wanna-do-live-at-my-fathers-place-1978/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Tropical Hot Dog Night 4:36"
+        },
+        {
+          "sequence": 2,
+          "title": "Nowadays A Woman’s Gotta Hit A Man 5:07"
+        },
+        {
+          "sequence": 3,
+          "title": "Owed T’ Alex 5:20"
+        },
+        {
+          "sequence": 4,
+          "title": "Dropout Boogie 3:13"
+        },
+        {
+          "sequence": 5,
+          "title": "Harry Irene 3:46"
+        },
+        {
+          "sequence": 6,
+          "title": "Abba Zaba 3:44"
+        },
+        {
+          "sequence": 7,
+          "title": "Her Eyes Are A Blue Million Miles 4:12"
+        },
+        {
+          "sequence": 8,
+          "title": "Old Fart At Play 2:26"
+        },
+        {
+          "sequence": 9,
+          "title": "Well 3:55"
+        },
+        {
+          "sequence": 10,
+          "title": "Ice Rose 3:56"
+        },
+        {
+          "sequence": 11,
+          "title": "Moonlight On Vermont 3:52"
+        },
+        {
+          "sequence": 12,
+          "title": "The Floppy Boot Stomp 4:18"
+        },
+        {
+          "sequence": 13,
+          "title": "You Know You’re A Man 3:26"
+        },
+        {
+          "sequence": 14,
+          "title": "Bat Chain Puller 5:55"
+        },
+        {
+          "sequence": 15,
+          "title": "Apes-Ma 0:46"
+        },
+        {
+          "sequence": 16,
+          "title": "When I See Mommy I Feel Like A Mummy 6:04"
+        },
+        {
+          "sequence": 17,
+          "title": "Veteran’s Day Poppy 9:11"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Live London ’74",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/LiveLondon74_sml.jpg",
+      "release_year": 2006,
+      "recorded": "1974",
+      "detail_url": "https://www.beefheart.com/live-in-london-drury-lane-74-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Mirror Man"
+        },
+        {
+          "sequence": 2,
+          "title": "Upon The Me Oh My"
+        },
+        {
+          "sequence": 3,
+          "title": "Full Moon Hot Sun"
+        },
+        {
+          "sequence": 4,
+          "title": "Sugar Bowl"
+        },
+        {
+          "sequence": 5,
+          "title": "Crazy Little Thing"
+        },
+        {
+          "sequence": 6,
+          "title": "Keep On Rubbin’ aka Mighty Crazy"
+        },
+        {
+          "sequence": 7,
+          "title": "Sweet Georgia Brown"
+        },
+        {
+          "sequence": 8,
+          "title": "This Is The Day"
+        },
+        {
+          "sequence": 9,
+          "title": "New Electric Ride"
+        },
+        {
+          "sequence": 10,
+          "title": "Abba Zabba"
+        },
+        {
+          "sequence": 11,
+          "title": "Peaches"
+        },
+        {
+          "sequence": 12,
+          "title": "Capitol Radio Concert Advert"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Amsterdam ’80",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/n6l7iielz6y3e67n.jpg",
+      "release_year": 2006,
+      "recorded": "1980",
+      "detail_url": "https://www.beefheart.com/amsterdam-80-discography/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Abba Zaba"
+        },
+        {
+          "sequence": 2,
+          "title": "Hot Head"
+        },
+        {
+          "sequence": 3,
+          "title": "Ashtray Heart"
+        },
+        {
+          "sequence": 4,
+          "title": "Dirty Blue Gene"
+        },
+        {
+          "sequence": 5,
+          "title": "Best Batch Yet"
+        },
+        {
+          "sequence": 6,
+          "title": "Safe As Milk"
+        },
+        {
+          "sequence": 7,
+          "title": "Her Eyes Are A Blue Million Miles"
+        },
+        {
+          "sequence": 8,
+          "title": "One Red Rose That I Mean"
+        },
+        {
+          "sequence": 9,
+          "title": "Doctor Dark"
+        },
+        {
+          "sequence": 10,
+          "title": "Bat Chain Puller"
+        },
+        {
+          "sequence": 11,
+          "title": "My Human Gets Me Blues"
+        },
+        {
+          "sequence": 12,
+          "title": "Sugar ‘n’ Spikes"
+        },
+        {
+          "sequence": 13,
+          "title": "Veteran’s Day Poppy"
+        },
+        {
+          "sequence": 14,
+          "title": "Dropout Boogie"
+        },
+        {
+          "sequence": 15,
+          "title": "Sheriff Off Hong Kong"
+        },
+        {
+          "sequence": 16,
+          "title": "Kandy Korn"
+        },
+        {
+          "sequence": 17,
+          "title": "Suction Prints"
+        },
+        {
+          "sequence": 18,
+          "title": "Big Eyed Beans from Venus"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Railroadism – Live in the US 72-81",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/railroadism_sml.jpg",
+      "release_year": 2003,
+      "recorded": "1972-81",
+      "detail_url": "https://www.beefheart.com/railroadism-live-in-the-usa-72-81/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Old Black Snake"
+        },
+        {
+          "sequence": 2,
+          "title": "King Bee"
+        },
+        {
+          "sequence": 3,
+          "title": "The Blimp/Air Bass-Soft Shoe(Sax Improv)"
+        },
+        {
+          "sequence": 4,
+          "title": "I’m Gonna Booglarize You Baby"
+        },
+        {
+          "sequence": 5,
+          "title": "A carrot is as close as a rabbit gets to a diamond"
+        },
+        {
+          "sequence": 6,
+          "title": "China Pig / Railroadism"
+        },
+        {
+          "sequence": 7,
+          "title": "I Love You You Big Dummy (short quote only)"
+        },
+        {
+          "sequence": 8,
+          "title": "Grow Fins"
+        },
+        {
+          "sequence": 9,
+          "title": "Floppy Boot Stomp"
+        },
+        {
+          "sequence": 10,
+          "title": "Harry Irene"
+        },
+        {
+          "sequence": 11,
+          "title": "The Dust Blows Forward ‘n’ The Dust Blows Back"
+        },
+        {
+          "sequence": 12,
+          "title": "Ashtray Heart"
+        },
+        {
+          "sequence": 13,
+          "title": "Dirty Blue Gene"
+        },
+        {
+          "sequence": 14,
+          "title": "Smithsonian Institute Blues"
+        },
+        {
+          "sequence": 15,
+          "title": "One Red Rose That I Mean"
+        },
+        {
+          "sequence": 16,
+          "title": "Veteran’s Day Poppy"
+        },
+        {
+          "sequence": 17,
+          "title": "Big Eyed Beans From Venus"
+        },
+        {
+          "sequence": 18,
+          "title": "Avalon Blues"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Magnetic Hands – Live in the UK 72-80",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/magnetichands.jpg",
+      "release_year": 2002,
+      "recorded": "1972-80",
+      "detail_url": "https://www.beefheart.com/magnetic-hands-live-in-the-uk-72-80/",
+      "tracks": [
+        {
+          "sequence": 1,
+          "title": "Click Clack"
+        },
+        {
+          "sequence": 2,
+          "title": "Old Black Snake"
+        },
+        {
+          "sequence": 3,
+          "title": "Grow Fins"
+        },
+        {
+          "sequence": 4,
+          "title": "Peon"
+        },
+        {
+          "sequence": 5,
+          "title": "Golden Birdies"
+        },
+        {
+          "sequence": 6,
+          "title": "Electricity"
+        },
+        {
+          "sequence": 7,
+          "title": "Sugar Mama"
+        },
+        {
+          "sequence": 8,
+          "title": "Orange Claw Hammer"
+        },
+        {
+          "sequence": 9,
+          "title": "Gimme Dat Harp"
+        },
+        {
+          "sequence": 10,
+          "title": "Beatle Bones ‘n’ Smokin Stones"
+        },
+        {
+          "sequence": 11,
+          "title": "Dali’s Car"
+        },
+        {
+          "sequence": 12,
+          "title": "Flavor Bud Living"
+        },
+        {
+          "sequence": 13,
+          "title": "Nowadays A Woman’s Gotta Hit A Man"
+        },
+        {
+          "sequence": 14,
+          "title": "Abba Zaba"
+        },
+        {
+          "sequence": 15,
+          "title": "Hothead"
+        },
+        {
+          "sequence": 16,
+          "title": "Safe As Milk"
+        },
+        {
+          "sequence": 17,
+          "title": "Dropout Boogie"
+        },
+        {
+          "sequence": 18,
+          "title": "Kandy Korn"
+        }
+      ],
+      "musicians": []
+    },
+    {
+      "title": "Magneticism – The Best Of Captain Beefheart & His Magic Bands Live 72-81",
+      "album_type": "Live",
+      "recording_type": "live",
+      "cover_art_url": "https://www.beefheart.com/wp-content/uploads/2012/07/Magneticism_front.jpg",
+      "release_year": 2009,
+      "recorded": "1972-81",
+      "detail_url": "https://www.beefheart.com/magneticism-live-in-the-ukusa-1972-81/",
+      "tracks": [],
+      "musicians": []
+    }
+  ]
+}
