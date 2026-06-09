@@ -12,7 +12,15 @@ import searchRouter from './routes/search';
 import mcpRouter from '../mcp/router';
 
 const app = express();
-app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+      // Allow cover art from iTunes, Amazon, Wikimedia, and the artlogic background image
+      'img-src': ["'self'", 'data:', '*.mzstatic.com', 'm.media-amazon.com', 'upload.wikimedia.org', 'static-assets.artlogic.net'],
+    },
+  },
+}));
 app.use(cors({
   origin: process.env.ALLOWED_ORIGIN ?? '*',
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
