@@ -19,7 +19,8 @@
     "test": "vitest run",
     "ui:install": "cd src/ui && npm install",
     "ui:dev": "cd src/ui && npm run dev",
-    "ui:build": "cd src/ui && npm run build"
+    "ui:build": "cd src/ui && npm run build",
+    "build:all": "npm run ui:install && npm run build && npm run ui:build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
