@@ -1,4 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
+import helmet from 'helmet';
+import cors from 'cors';
 import adminRouter from './routes/admin';
 import artistsRouter from './routes/artists';
 import albumsRouter from './routes/albums';
@@ -10,6 +12,11 @@ import searchRouter from './routes/search';
 import mcpRouter from '../mcp/router';
 
 const app = express();
+app.use(helmet());
+app.use(cors({
+  origin: process.env.ALLOWED_ORIGIN ?? '*',
+  methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
+}));
 app.use(express.json());
 
 app.use('/admin/api-keys', adminRouter);
