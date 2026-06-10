@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* Freestanding headings: per-line background that hugs the text */
+  .text-hug {
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-color: #ed783a;
+    padding: 0.1em 0.45em;
+    font-family: 'Spectral', Georgia, serif;
+    color: #1a1210;
+    line-height: 1.55;
+  }
+
+  /* Fine-bordered table for track listings */
+  .table-ruled {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-ruled th,
+  .table-ruled td {
+    border: 1px solid #1a1210;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .table-ruled th {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 0.625rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8a6030;
+    background-color: #ede4cc;
+    user-select: none;
+  }
+  .table-ruled tbody tr:hover td {
+    background-color: #e8dfc0;
+  }
+
+  /* Two-column label/value table for song metadata */
+  .meta-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .meta-table td {
+    border: 1px solid #1a1210;
+    padding: 5px 10px;
+    vertical-align: top;
+  }
+  .meta-table td:first-child {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 0.625rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8a6030;
+    background-color: #ede4cc;
+    white-space: nowrap;
+    width: 82px;
+  }
+  .meta-table td:last-child {
+    font-family: 'Spectral', Georgia, serif;
+    font-size: 0.875rem;
+    color: #1a1210;
+  }
+}

@@ -27,39 +27,58 @@ export default function SearchPage() {
     if (input.trim()) setSearchParams({ q: input.trim() });
   }
 
-  const totalCount = (results?.results.songs.length ?? 0) + (results?.results.albums.length ?? 0);
+  const totalCount =
+    (results?.results.songs.length ?? 0) + (results?.results.albums.length ?? 0);
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-white mb-6">Search</h1>
+      <div className="mb-6">
+        <h1 className="text-hug text-[2rem] font-bold">Search</h1>
+      </div>
 
-      <form onSubmit={handleSubmit} className="flex gap-2 mb-8">
+      <form onSubmit={handleSubmit} className="flex mb-8">
         <input
           value={input}
           onChange={e => setInput(e.target.value)}
           placeholder="Search songs and albums…"
-          className="flex-1 bg-gray-900 text-gray-100 placeholder-gray-500 rounded px-4 py-2 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+          className="flex-1 bg-canvas-muted border border-ink text-ink text-[0.875rem] placeholder-ink-muted px-4 py-2 focus:outline-none focus:bg-canvas-strong"
         />
-        <button type="submit" className="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded text-sm">Search</button>
+        <button
+          type="submit"
+          className="bg-canvas-strong border border-ink border-l-0 text-ink-brown text-[0.8rem] font-medium uppercase tracking-[0.06em] px-4 py-2 hover:bg-ember hover:text-canvas hover:border-ember transition-colors"
+        >
+          Search
+        </button>
       </form>
 
       {loading && <Spinner />}
-      {error   && <p className="text-red-400">Failed to search: {error}</p>}
+      {error   && <p className="text-ember">Failed to search: {error}</p>}
 
       {results && !loading && (
         <div>
-          <p className="text-sm text-gray-500 mb-6">
-            {totalCount === 0 ? `No results for "${results.query}"` : `${totalCount} result${totalCount !== 1 ? 's' : ''} for "${results.query}"`}
+          <p className="text-[0.75rem] text-ink-muted mb-5">
+            {totalCount === 0
+              ? `No results for "${results.query}"`
+              : `${totalCount} result${totalCount !== 1 ? 's' : ''} for "${results.query}"`}
           </p>
 
           {results.results.songs.length > 0 && (
-            <section className="mb-8">
-              <h2 className="text-xs text-gray-500 uppercase tracking-widest mb-3">Songs</h2>
-              <ul className="space-y-2">
+            <section className="mb-7">
+              <h2 className="text-[0.62rem] uppercase tracking-[0.1em] text-ink-muted font-medium mb-3">
+                Songs
+              </h2>
+              <ul className="divide-y divide-[#d4c8b0]">
                 {results.results.songs.map(s => (
-                  <li key={s.id} className="flex items-center gap-3">
-                    <Link to={`/songs/${s.id}`} className="text-white hover:text-indigo-400">{s.name}</Link>
-                    {s.release_year && <span className="text-sm text-gray-500">{s.release_year}</span>}
+                  <li key={s.id} className="flex items-baseline gap-3 py-2">
+                    <Link
+                      to={`/songs/${s.id}`}
+                      className="font-serif text-[0.95rem] text-ink hover:text-ember"
+                    >
+                      {s.name}
+                    </Link>
+                    {s.release_year && (
+                      <span className="text-[0.72rem] text-ink-muted">{s.release_year}</span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -67,13 +86,22 @@ export default function SearchPage() {
           )}
 
           {results.results.albums.length > 0 && (
-            <section>
-              <h2 className="text-xs text-gray-500 uppercase tracking-widest mb-3">Albums</h2>
-              <ul className="space-y-2">
+            <section className="mb-7">
+              <h2 className="text-[0.62rem] uppercase tracking-[0.1em] text-ink-muted font-medium mb-3">
+                Albums
+              </h2>
+              <ul className="divide-y divide-[#d4c8b0]">
                 {results.results.albums.map(a => (
-                  <li key={a.id} className="flex items-center gap-3">
-                    <Link to={`/albums/${a.id}`} className="text-white hover:text-indigo-400">{a.name}</Link>
-                    {a.release_year && <span className="text-sm text-gray-500">{a.release_year}</span>}
+                  <li key={a.id} className="flex items-baseline gap-3 py-2">
+                    <Link
+                      to={`/albums/${a.id}`}
+                      className="font-serif text-[0.95rem] text-ink hover:text-ember"
+                    >
+                      {a.name}
+                    </Link>
+                    {a.release_year && (
+                      <span className="text-[0.72rem] text-ink-muted">{a.release_year}</span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -81,18 +109,22 @@ export default function SearchPage() {
           )}
 
           {totalCount === 0 && (
-            <p className="text-gray-500">Try a different search term.</p>
+            <p className="text-ink-muted">Try a different search term.</p>
           )}
         </div>
       )}
 
       {!q && !loading && (
-        <p className="text-gray-500">Enter a search term above.</p>
+        <p className="text-[0.875rem] text-ink-muted">Enter a search term above.</p>
       )}
     </div>
   );
 }
 
 function Spinner() {
-  return <div className="flex justify-center py-20"><div className="w-8 h-8 rounded-full border-2 border-gray-700 border-t-indigo-400 animate-spin" /></div>;
+  return (
+    <div className="flex justify-center py-20">
+      <div className="w-8 h-8 border-2 border-canvas-strong border-t-amber animate-spin" />
+    </div>
+  );
 }

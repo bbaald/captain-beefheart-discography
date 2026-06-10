@@ -23,50 +23,78 @@ export default function AlbumPage() {
   if (!album)  return null;
 
   const totalSeconds = album.songs.reduce((n, s) => n + (s.running_time_seconds ?? 0), 0);
-  const totalTime = totalSeconds > 0 ? formatTime(totalSeconds) : null;
+  const totalTime = totalSeconds > 0 ? fmtTotal(totalSeconds) : null;
 
   return (
     <div>
-      <Link to="/" className="text-sm text-gray-500 hover:text-gray-300 mb-6 inline-block">← Discography</Link>
+      <Link
+        to="/"
+        className="inline-block text-[0.7rem] uppercase tracking-[0.07em] text-ink-muted hover:text-ember transition-colors mb-6"
+      >
+        ← Discography
+      </Link>
 
-      <div className="flex gap-6 mb-8">
-        <div className="w-40 h-40 shrink-0 bg-gray-800 rounded-lg overflow-hidden">
-          {album.cover_art_url
-            ? <img src={album.cover_art_url} alt={album.title} className="w-full h-full object-cover" />
-            : <div className="w-full h-full flex items-center justify-center text-gray-600">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
-              </div>
-          }
-        </div>
-        <div className="flex flex-col justify-end pb-1">
-          {album.album_type && (
-            <p className="text-xs text-gray-500 uppercase tracking-widest mb-1">{album.album_type}</p>
+      {/* Album header */}
+      <div className="flex gap-6 mb-8 items-end">
+        <div className="w-36 h-36 shrink-0 border border-ink overflow-hidden bg-canvas-strong">
+          {album.cover_art_url ? (
+            <img src={album.cover_art_url} alt={album.title} className="w-full h-full object-cover" />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center text-ink-muted">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1}
+                  d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+              </svg>
+            </div>
           )}
-          <h1 className="text-3xl font-bold text-white">{album.title}</h1>
-          {album.credited_as && <p className="text-gray-400 mt-1">{album.credited_as}</p>}
-          <div className="flex items-center gap-3 mt-2 text-sm text-gray-500">
+        </div>
+
+        <div className="flex-1 pb-px">
+          {album.album_type && (
+            <p className="text-[0.62rem] uppercase tracking-[0.1em] text-amber font-medium mb-[5px]">
+              {album.album_type}
+            </p>
+          )}
+          <h1 className="font-serif text-[2.2rem] font-bold text-ink leading-[1.2] mb-[6px]">
+            {album.title}
+          </h1>
+          {album.credited_as && (
+            <p className="text-[0.9rem] text-ink-brown mb-2">{album.credited_as}</p>
+          )}
+          <div className="flex gap-3 text-[0.72rem] text-ink-muted flex-wrap">
             {album.release_year && <span>{album.release_year}</span>}
-            {album.songs.length > 0 && <span>{album.songs.length} track{album.songs.length !== 1 ? 's' : ''}</span>}
+            {album.songs.length > 0 && (
+              <span>{album.songs.length} track{album.songs.length !== 1 ? 's' : ''}</span>
+            )}
             {totalTime && <span>{totalTime}</span>}
             {album.record_label && <span>{album.record_label}</span>}
           </div>
         </div>
       </div>
 
+      {/* Track table */}
       {album.songs.length > 0 ? (
-        <div className="bg-gray-900 rounded-lg p-2">
-          {album.songs.map(song => <SongRow key={song.id} song={song} />)}
-        </div>
+        <table className="table-ruled">
+          <thead>
+            <tr>
+              <th className="text-right">#</th>
+              <th>Title</th>
+              <th>Type</th>
+              <th className="text-right">Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            {album.songs.map(song => <SongRow key={song.id} song={song} />)}
+          </tbody>
+        </table>
       ) : (
-        <p className="text-gray-500">No tracks linked yet.</p>
+        <p className="text-ink-muted">No tracks linked yet.</p>
       )}
     </div>
   );
 }
 
-function formatTime(seconds: number): string {
+function fmtTotal(seconds: number): string {
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
   const s = seconds % 60;
@@ -75,8 +103,12 @@ function formatTime(seconds: number): string {
 }
 
 function Spinner() {
-  return <div className="flex justify-center py-20"><div className="w-8 h-8 rounded-full border-2 border-gray-700 border-t-indigo-400 animate-spin" /></div>;
+  return (
+    <div className="flex justify-center py-20">
+      <div className="w-8 h-8 border-2 border-canvas-strong border-t-amber animate-spin" />
+    </div>
+  );
 }
 function ErrorMsg({ message }: { message: string }) {
-  return <p className="text-red-400 py-8">Failed to load: {message}</p>;
+  return <p className="text-ember py-8">Failed to load: {message}</p>;
 }

@@ -17,12 +17,15 @@ export default function HomePage() {
 
   if (loading) return <Spinner />;
   if (error)   return <ErrorMsg message={error} />;
-  if (albums.length === 0) return <p className="text-gray-500">No albums yet.</p>;
+  if (albums.length === 0) return <p className="text-ink-muted">No albums yet.</p>;
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-white mb-6">Discography</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div className="mb-5">
+        <h1 className="text-hug text-[2rem] font-bold">Discography</h1>
+      </div>
+      {/* gap-px + bg-ink creates 1px ink-coloured borders between every card */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-px bg-ink border border-ink">
         {albums.map(a => <AlbumCard key={a.id} album={a} />)}
       </div>
     </div>
@@ -32,11 +35,11 @@ export default function HomePage() {
 function Spinner() {
   return (
     <div className="flex justify-center py-20">
-      <div className="w-8 h-8 rounded-full border-2 border-gray-700 border-t-indigo-400 animate-spin" />
+      <div className="w-8 h-8 border-2 border-canvas-strong border-t-amber animate-spin" />
     </div>
   );
 }
 
 function ErrorMsg({ message }: { message: string }) {
-  return <p className="text-red-400 py-8">Failed to load: {message}</p>;
+  return <p className="text-ember py-8">Failed to load: {message}</p>;
 }
